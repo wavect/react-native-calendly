@@ -1,0 +1,38 @@
+{
+  "name": "@wavect/react-native-calendly",
+  "version": "1.0.0",
+  "private": false,
+  "description": "React Native library to integrate Calendly into your Expo/React Native app",
+  "main": "lib/index.js",
+  "types": "lib/index.d.ts",
+  "scripts": {
+    "build": "tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wavect/react-native-calendly.git"
+  },
+  "keywords": [
+    "reactnative",
+    "react",
+    "calendly",
+    "expo"
+  ],
+  "author": "Wavect GmbH",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/wavect/react-native-calendly/issues"
+  },
+  "homepage": "https://wavect.io",
+  "devDependencies": {
+    "@types/node": "^22.5.5",
+    "@types/react": "^18.3.8",
+    "@types/react-native": "^0.73.0",
+    "react": "^18.3.1",
+    "react-native": "^0.75.3",
+    "typescript": "^5.6.2"
+  },
+  "dependencies": {
+    "react-native-webview": "^13.12.2"
+  }
+}
